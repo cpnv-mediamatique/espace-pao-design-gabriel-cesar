@@ -22,3 +22,9 @@ color: rgb(0, 0, 0) ;
 #svg_panier{
     text-align: center;
 }
+.bordDeCarte{
+    border-radius: 15px;
+}
+#creerUnCompteVert{
+    color: #00A35C;
+}
