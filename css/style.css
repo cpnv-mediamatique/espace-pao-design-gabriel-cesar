@@ -10,6 +10,18 @@
 #couleurMDP{
     color: #454545; 
 }
+
+.retourSansDeco a{
+color: rgb(0, 0, 0) ;
+
+}
+.espaceRetour{
+    padding-left: 100px;
+}
+
+#svg_panier{
+    text-align: center;
+}
 .bordDeCarte{
     border-radius: 15px;
     background-color: #f7f7f7;
