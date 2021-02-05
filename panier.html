@@ -21,8 +21,8 @@
 <body>
   <!-- Start your project here-->
   <!-- Image and text -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-dark primary-color retourSansDeco">
+  <div class="container-max-widths">
+    <nav class="navbar navbar-dark primary-color retourSansDeco py-0">
 
       <div class="m-4">
         <a href="index.html">
@@ -37,7 +37,7 @@
   </div>
   </nav>
   </div>
-  <div class="container col-7">
+  <div class="container col-md-8">
     <div class="row">
       <div id="svg_panier" class="mt-5">
         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#00A35C" class="bi bi-cart4"
@@ -53,36 +53,41 @@
 
 
     <hr size="4px">
-    <div class="row">
-      <div class="col-sm">Produit</div>
-      <div class="d-flex col-sm justify-content-end">Quantité</div>
+    <div class="row ">
+      <div class="col">Produit</div>
+      <div class="col text-end">Quantité</div>
 
     </div>
     <hr size="4px">
 
     <div class="row">
-      <div class="col-sm">
+      <div class="col-8">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#00A35C" class="bi bi-card-heading" viewBox="0 0 16 16">
           <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
           <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z"/>
         </svg>
         <span class="m-4 font-weight-bold">Cartes de visite</span>
-        <p class="design">Design b </p>
-        <p class="d-flex col-sm justify-content-end mb-5">500</p>
+        <p class="design">Design b</p>
       </div>
+      <div class="col-4">
+        <span class="d-flex col-sm justify-content-end mb-5">500</span>
+      </div>
+    
       <div class="w-100"></div>
-          <div class="col-sm">
+          <div class="col-8">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#00A35C" class="bi bi-printer" viewBox="0 0 16 16">
             <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
             <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"/>
           </svg>
           <span class="m-4 font-weight-bold">Impression</span>
           <p class="design">Feuillle A3 </p>
-          <span class="d-flex col-sm justify-content-end mb-5">1000</span>
+        </div>
+        <div class="col-4">
+          <span class="d-flex justify-content-end mb-5">1000</span>
         </div>
       <div class="w-100"></div>
       <div class="col-sm">  
-        <button type="button" class="btn btn-dark btn-rounded">COMMANDER</button>
+        <button type="button" class="btn btn-dark btn-rounded fa-pull-right mt-4 ml-5">COMMANDER</button>
       </div>
 </div>
 
