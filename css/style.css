@@ -63,3 +63,21 @@ color: rgb(0, 0, 0) ;
     width: 100%;
     background-color: #D4E9D1;
 }
+.backgroundColorFonceCartesVisite{
+    background-image: url("../img/visitCard2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texteCartesVisite {
+    color: white;
+    margin: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.designChoisiGauche{
+    text-align: left;
+}
+.imgDesignCDV{
+    height: 80%;
+    width: 80%;
+}
