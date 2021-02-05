@@ -10,6 +10,9 @@
 #couleurMDP{
     color: #454545; 
 }
+.backgroundColorFonce{
+    background-color: #F4F4F4;
+}
 
 .retourSansDeco a{
 color: rgb(0, 0, 0) ;
@@ -31,4 +34,32 @@ color: rgb(0, 0, 0) ;
 }
 .design{
     margin-left: 58px;
+}
+
+.arrow-down{
+    background-image: url("../img/triangle.svg");
+    background-size: contain;
+    z-index: 100;
+    background-repeat: no-repeat;
+}
+.texteDeBienvenueTitre{
+    text-align: center;
+    font-weight: 1000;
+}
+.texteDeBienvenue{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 200;
+}
+.centrerCartes{
+    text-align:center;
+}
+.texteAgauche{
+    text-align: left;
+}
+
+.fondVert{
+    width: 100%;
+    background-color: #D4E9D1;
 }
