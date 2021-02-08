@@ -10,6 +10,9 @@
 #couleurMDP{
     color: #454545; 
 }
+.backgroundColorFonce{
+    background-color: #F4F4F4;
+}
 
 .retourSansDeco a{
 color: rgb(0, 0, 0) ;
@@ -24,7 +27,57 @@ color: rgb(0, 0, 0) ;
 }
 .bordDeCarte{
     border-radius: 15px;
+    background-color: #f7f7f7;
 }
 #creerUnCompteVert{
     color: #00A35C;
+}
+.design{
+    margin-left: 58px;
+}
+
+.arrow-down{
+    background-image: url("../img/triangle.svg");
+    background-size: contain;
+    z-index: 100;
+    background-repeat: no-repeat;
+}
+.texteDeBienvenueTitre{
+    text-align: center;
+    font-weight: 1000;
+}
+.texteDeBienvenue{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 200;
+}
+.centrerCartes{
+    text-align:center;
+}
+.texteAgauche{
+    text-align: left;
+}
+
+.fondVert{
+    width: 100%;
+    background-color: #D4E9D1;
+}
+.backgroundColorFonceCartesVisite{
+    background-image: url("../img/visitCard2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texteCartesVisite {
+    color: white;
+    margin: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.designChoisiGauche{
+    text-align: left;
+}
+.imgDesignCDV{
+    height: 80%;
+    width: 80%;
 }
