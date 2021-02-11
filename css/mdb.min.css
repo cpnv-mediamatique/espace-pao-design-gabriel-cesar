@@ -2885,7 +2885,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-    border-color: #1266f1;
+    border-color: #00A35C;
     outline: 0;
     -webkit-box-shadow: 0 0 0 .25rem rgba(18, 102, 241, .25);
     box-shadow: 0 0 0 .25rem rgba(18, 102, 241, .25)
@@ -15359,7 +15359,7 @@ i.flag-zw:before {
 }
 
 .form-outline .form-control:focus ~ .form-label {
-    color: #1266f1
+    color: #00A35C;
 }
 
 .form-outline .form-control.active ~ .form-notch .form-notch-middle,
@@ -15373,7 +15373,7 @@ i.flag-zw:before {
 
 .form-outline .form-control:focus ~ .form-notch .form-notch-middle {
     border-bottom: .125rem solid;
-    border-color: #1266f1
+    border-color: #00A35C;
 }
 
 .form-outline .form-control.active ~ .form-notch .form-notch-leading,
@@ -15384,9 +15384,9 @@ i.flag-zw:before {
 }
 
 .form-outline .form-control:focus ~ .form-notch .form-notch-leading {
-    border-top: .125rem solid #1266f1;
-    border-bottom: .125rem solid #1266f1;
-    border-left: .125rem solid #1266f1
+    border-top: .125rem solid #00A35C;
+    border-bottom: .125rem solid #00A35C;
+    border-left: .125rem solid #00A35C
 }
 
 .form-outline .form-control.active ~ .form-notch .form-notch-trailing,
@@ -15397,9 +15397,9 @@ i.flag-zw:before {
 }
 
 .form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
-    border-top: .125rem solid #1266f1;
-    border-bottom: .125rem solid #1266f1;
-    border-right: .125rem solid #1266f1
+    border-top: .125rem solid #00A35C;
+    border-bottom: .125rem solid #00A35C;
+    border-right: .125rem solid #00A35C
 }
 
 .form-outline .form-control.disabled,
