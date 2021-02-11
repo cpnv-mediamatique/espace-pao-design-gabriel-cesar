@@ -81,3 +81,27 @@ color: rgb(0, 0, 0) ;
     width: 80%;
 }
 
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    box-shadow: 0 0 2pt 1pt #037946;
+  }
+
+  .alignerCdVdroite{
+      text-align: center;
+  }
+
+  .alignerCdVgauche{
+    text-align: left;
+}
