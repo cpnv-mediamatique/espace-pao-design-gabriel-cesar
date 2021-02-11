@@ -21,36 +21,31 @@
 <body>
 
     <!-- La NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-2-strong">
-        
-        <div class="container-fluid">
-            <div class="m-2 retourSansDeco">
+    <div class="container-max-widths">
+        <nav class="navbar navbar-dark primary-color retourSansDeco py-0">
+
+            <div class="m-4">
                 <a href="index.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00A35C" class="bi bi-arrow-bar-left"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                      d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
-                  </svg>
-                  <span class="m-2 fs-6">Retour à l'accueil</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00A35C"
+                        class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                    <span class="m-2 fs-6">Retour à l'accueil</span>
                 </a>
-          </div>
-            
-            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
-                <ul class="navbar-nav ms-auto m-2 mb-lg-1">
-                    <li class="nav-item mb-3 retourSansDeco">
-                        <a href="panier.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00A35C"
-                                class="bi bi-cart4" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
-                            </svg>
-                            <span class="m-4">Mon panier</span>
-                        </a>
-                    </li>
-                </ul>
             </div>
-        </div>
-    </nav>
+            <div class="mx-4">
+                <a href="panier.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00A35C"
+                        class="bi bi-cart4 mb-2" viewBox="0 0 16 16">
+                        <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                    </svg>
+                    <span class="mx-3">Mon panier</span>
+                </a>
+            </div>
+        </nav>
+    </div>
 
     <div class="backgroundColorFonceCartesVisite">
         <div class="container">
@@ -122,45 +117,50 @@
                         <div class="row m-2">
                             <div class="col-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="option1" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                     </label>
                                     <img class="imgDesignCDV" src="img/design1.png" alt="Design 1">
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="option1" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                     </label>
                                     <img class="imgDesignCDV" src="img/design2.png" alt="Design 2">
-                                  </div>
-                                
+                                </div>
+
                             </div>
                         </div>
                         <div class="row mb-5 m-2">
                             <div class="col-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="option1" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                     </label>
                                     <img class="imgDesignCDV" src="img/design3.png" alt="Design 3">
-                                  </div>
+                                </div>
 
                             </div>
                             <div class="col-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="option1" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                     </label>
-                                    <img class="d-flex imgDesignCDV align-items-center" src="img/design4.png" alt="Design 4">
-                                  </div>
+                                    <img class="d-flex imgDesignCDV align-items-center" src="img/design4.png"
+                                        alt="Design 4">
+                                </div>
                             </div>
                         </div>
                         <div class="row mb-5">
-                        <div class="centrerCartes">
-                              <a href="cartesVisite.html" class="btn btn-dark">Commander</a>
-                          </div>
+                            <div class="centrerCartes">
+                                <a href="cartesVisite.html" class="btn btn-dark">Commander</a>
+                            </div>
                         </div>
                     </div>
                 </div>
