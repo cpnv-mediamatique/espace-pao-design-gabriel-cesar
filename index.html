@@ -21,25 +21,31 @@
 <body>
 
   <!-- La NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarRightAlignExample">
-        <ul class="navbar-nav ms-auto m-3 mb-lg-1">
+  <div class="container-max-widths">
+    <nav class="navbar navbar-dark primary-color retourSansDeco py-0">
 
-          <li class="nav-item">
-            <button type="submit" onclick="window.location='login.html'"
-              class="btn btn-success btn-block mb-3 btn-rounded fa-pull-right">Se
-              connecter</button>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <div class="m-4">
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00A35C"
+                    class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+                <span class="m-2 fs-6">Retour à l'accueil</span>
+            </a>
+        </div>
+        <div class="mx-lg-4 mx-md-3">
+            <a href="login.html">
+              <button type="button" class="btn btn-success">Se connecter</button>
+            </a>
+        </div>
+    </nav>
+</div>
   <!-- Impressions -->
   <div class="backgroundColorFonce">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-3 mt-5">
+        <div class="col-lg-3 mt-5 order-2 order-lg-1">
           <div class="card">
             <div class="fondVert shadow-1-strong">
               <div class="card-top mt-5 mb-5">
@@ -65,13 +71,13 @@
           </div>
         </div>
         <!-- Texte Bienvenue -->
-        <div class="col-md-5 d-flex justify-content-center pasDeRepet">
+        <div class="col-lg-5 d-flex justify-content-center order-1 order-lg-2 pasDeRepet">
           <div class="d-flex justify-content-center">
             <div class="arrow-down">
               <div class="texteDeBienvenueTitre mt-5">
                 Bienvenue dans l'espace entreprise-PAO !
                 <div class="texteDeBienvenue mt-2">
-                  Vous trouvez ci-dessous les servcies couverts par nos soins. Nous espérons que nos produits vous
+                  Vous trouvez ci-dessous les services couverts par nos soins. Nous espérons que nos produits vous
                   seront
                   utiles !
                 </div>
@@ -80,7 +86,7 @@
           </div>
         </div>
         <!-- Carte de visites -->
-        <div class="col-md-3 mt-5">
+        <div class="col-lg-3 mt-5 order-3 order-lg-3">
           <div class="card">
             <div class="fondVert shadow-1-strong">
               <div class="card-top mt-5 mb-5">
@@ -109,7 +115,7 @@
       </div>
       <!-- Les étiquettes -->
       <div class="row">
-        <div class="col-md-4 p-5">
+        <div class="col-lg-4 p-lg-5">
           <div class="card m-3">
             <div class="fondVert shadow-1-strong">
               <div class="card-top mt-5 mb-5">
@@ -136,7 +142,7 @@
           </div>
         </div>
         <!-- Répartitions des tâches -->
-        <div class="col-md-4 p-5">
+        <div class="col-lg-4 p-lg-5">
           <div class="card m-3">
             <div class="fondVert shadow-1-strong">
               <div class="card-top mt-5 mb-5">
@@ -164,7 +170,7 @@
           </div>
         </div>
         <!-- Casiers pour téléphones -->
-        <div class="col-md-4 p-5">
+        <div class="col-lg-4 p-lg-5">
           <div class="card m-3">
             <div class="fondVert shadow-1-strong">
               <div class="card-top mt-5 mb-5">
