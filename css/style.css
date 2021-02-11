@@ -98,10 +98,27 @@ color: rgb(0, 0, 0) ;
     box-shadow: 0 0 2pt 1pt #037946;
   }
 
+  [type=radio] + div {
+    cursor: pointer;
+    box-shadow: 0 0 2pt 1pt pink !important;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + div {
+    box-shadow: 0 0 2pt 1pt #037946;
+  }
+
+    /* CHECKED STYLES */
+ 
+
   .alignerCdVdroite{
       text-align: center;
   }
 
   .alignerCdVgauche{
     text-align: left;
+}
+.imgEtiquette{
+    width: 80%;
+    height: 80%;
 }
