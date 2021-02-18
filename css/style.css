@@ -40,11 +40,7 @@ color: rgb(0, 0, 0) ;
     background-repeat: no-repeat;
     filter: drop-shadow(0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.05));
 }
-@media (max-width: 992px) { 
-    .arrow-down{
-        background-image:none;
-    }
- }
+
 .texteDeBienvenueTitre{
     text-align: center;
     font-weight: 1000;
@@ -68,6 +64,11 @@ color: rgb(0, 0, 0) ;
 }
 .backgroundColorFonceCartesVisite{
     background-image: url("../img/visitCard2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backgroundColorFonceEtiquettes{
+    background-image: url("../img/etiquettes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -124,6 +125,15 @@ color: rgb(0, 0, 0) ;
     width: 80%;
     height: 80%;
 }
+<<<<<<< HEAD
 .etiquette{
     box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
+=======
+
+@media (max-width: 1200px) { 
+    .arrow-down{
+        background-image:none;
+    }
+ }
+>>>>>>> fe44e8228360ab69427f6ab7603aa440354ed83e
