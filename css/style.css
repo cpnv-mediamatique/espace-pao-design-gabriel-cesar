@@ -86,12 +86,8 @@ color: rgb(0, 0, 0) ;
     width: 80%;
 }
 .formulaire{
-    display: none;
-}
-.formulaire.active{
     display: block;
 }
-
 
 [type=radio] { 
     position: absolute;
